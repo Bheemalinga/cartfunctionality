@@ -1,0 +1,46 @@
+.product-card {
+  display: flex;
+  align-items: center;
+}
+
+.product-card img {
+  width: 15%;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.product-card h4 {
+  margin-bottom: 10px;
+  padding-right: 40px;
+}
+
+.product-card p {
+  margin-top: 10px;
+  padding-right: 40px;
+}
+
+.product-card input {
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.product-card input:focus {
+  outline: none;
+  border-color: #508dbf;
+}
+
+.product-card button {
+  align-self: flex-end;
+}
+
+.btn {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #508dbf;
+  color: #fff;
+  cursor: pointer;
+}
